@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Define remote origin for GitHub -->
+    <remote name="origin" fetch="https://github.com/" />
+
+    <!-- Default settings for all projects -->
+    <default revision="main" remote="origin" sync-j="4" />
+
+    <!-- Main repository (this will be your 'mainrepo') -->
+    <project name="sudeeptvs/mainrepo" path="." revision="main" />
+
+    <!-- Library 1 repository -->
+    <project name="sudeeptvs/lib1" path="lib1" revision="main" />
+
+    <!-- Library 2 repository -->
+    <project name="sudeeptvs/lib2" path="lib2" revision="main" />
+</manifest>
