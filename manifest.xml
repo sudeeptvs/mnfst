@@ -2,8 +2,6 @@
 <manifest>
     <remote name="origin" fetch="https://github.com/" />
     <default revision="main" remote="origin" sync-j="4" />
-    
-    <project name="sudeeptvs/mainrepo" path="mainrepo" revision="main" />
-    <project name="sudeeptvs/lib1" path="lib1" revision="main" />
-    <project name="sudeeptvs/lib2" path="lib2" revision="main" />
+
+    <project name="sudeeptvs/lpuart_echo_s32k118" path="lpuart_echo_s32k118_local" revision="main" />
 </manifest>
