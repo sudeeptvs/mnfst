@@ -3,5 +3,5 @@
     <remote name="origin" fetch="https://github.com/" />
     <default revision="main" remote="origin" sync-j="4" />
 
-    <project name="sudeeptvs/lpuart_echo_s32k118" path="lpuart_echo_s32k118_local" revision="main" />
+    <project name="sudeeptvs/lpi2c_slave_s32k118" path="lpi2c_slave_s32k118_local" revision="main" />
 </manifest>
